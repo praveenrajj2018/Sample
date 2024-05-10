@@ -1,0 +1,16 @@
+{
+    "topics": [
+      {
+        "id": 1,
+        "courseTopic": "Introduction to Redux",
+        "contentCovered": "Understanding the basics of Redux, Actions, Reducers, Store"
+      },
+      {
+        "id": 2,
+        "courseTopic": "Redux Middleware",
+        "contentCovered": "Learning about Redux Middleware, Thunk, Saga"
+      }
+    
+    ]
+  }
+  
