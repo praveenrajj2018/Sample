@@ -7,7 +7,7 @@ import { FaPlus, FaBell, FaUser, FaChevronUp } from 'react-icons/fa';
 import { FaPlay, FaVideo, FaMusic, FaFilePdf, FaFilePowerpoint, FaFileAlt, FaEdit, FaTrash } from 'react-icons/fa';
 import { useMediaQuery } from 'react-responsive';
 import Modal from 'react-modal';
-
+import { connect } from 'react-redux';
 import '../styles/Course_Description.css';
 import { RiDeleteBin5Line } from "react-icons/ri";
 import { useNavigate } from 'react-router-dom';

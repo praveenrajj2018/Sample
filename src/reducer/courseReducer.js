@@ -247,6 +247,14 @@ const combinedReducer = (state = initialState, action) => {
       return {
         ...state,
         isActive: !state.isActive
+      };case 'SET_IS_ACTIVE':
+      return {
+          ...state,
+          isActive: action.payload
+      }; case 'SET_SHOW_REPORT_DROPDOWN':
+      return {
+          ...state,
+          showReportDropdown: action.payload
       };
     default:
       return state;

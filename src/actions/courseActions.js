@@ -83,3 +83,31 @@ export const SET_ERROR = 'SET_ERROR';
     type: TOGGLE_ACTIVE
   });
   
+// actions.js
+// export const toggleSideNav = () => ({
+//   type: 'TOGGLE_SIDENAV'
+// });
+
+// export const setActivePage = (page) => ({
+//   type: 'SET_ACTIVE_PAGE',
+//   payload: page
+// });
+
+export const setShowReportDropdown = (show) => ({
+  type: 'SET_SHOW_REPORT_DROPDOWN',
+  payload: show
+});
+
+export const setShowModal = (show) => ({
+  type: 'SET_SHOW_MODAL',
+  payload: show
+});
+
+export const setIsActive = (isActive) => ({
+  type: 'SET_IS_ACTIVE',
+  payload: isActive
+});
+// actions.js
+// export const togglePopup = () => ({
+//   type: 'TOGGLE_POPUP'
+// });
